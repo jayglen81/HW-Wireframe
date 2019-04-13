@@ -1,0 +1,89 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+body { 
+    background-color: #777;
+    color: #777
+    font-family: arial,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    width: 960px;
+    font-size: 18px;
+}
+.header{
+    width: 960px;
+    height: 100px;
+}
+
+header {
+    text-align: center;
+    height: 100px;
+    padding-top: 40px;
+    padding-bottom: 10px%;
+}
+nav {
+    height: 100px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.class1 {
+    background-color: gray;
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+article {
+    color: #ebebeb;
+    background-color: #777;
+    margin: 3%;
+}
+.class3 {
+    margin: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom:1%;
+    background-color: #ebebeb;
+    }
+#id1 {
+    background-color: #777;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}    
+h1 p {
+    color: #777;
+}
+section {
+    float: left;
+    width: 59%;
+    height: 100%;
+    background-color: #ebebeb;
+}    
+aside {
+    float: right;
+    width: 39%;
+    height: 100%;
+    text-align: center;
+    background-color: #ebebeb;
+}
+div{
+    float: both;
+    overflow: auto;
+}
+p {
+    background-color: #ebebeb;
+    margin: 5px;
+}
+footer {
+    height: 100px;
+    width: 960px;
+    text-align: center;
+
+}
+.clearfix::after {
+    content:'';
+    clear: both;
+    display: table;
+}
